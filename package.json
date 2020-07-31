@@ -22,20 +22,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipld/js-ipld-dag-cbor.git"
+    "url": "https://github.com/TongHuaLabs/js-ipld-dag-cbor-enhanced.git"
   },
   "keywords": [
     "IPFS"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ipld/js-ipld-dag-cbor/issues"
+    "url": "https://github.com/TongHuaLabs/js-ipld-dag-cbor-enhanced/issues"
   },
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.0.0"
   },
-  "homepage": "https://github.com/ipld/js-ipld-dag-cbor",
+  "homepage": "https://github.com/TongHuaLabs/js-ipld-dag-cbor-enhanced",
   "dependencies": {
     "borc": "^2.1.2",
     "buffer": "^5.6.0",
