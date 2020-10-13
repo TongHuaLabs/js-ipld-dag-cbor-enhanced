@@ -30,7 +30,7 @@ Returns the serialized node.
 
 Decodes an IPLD CBOR encoded representation, restoring any CBOR tags (id `42`) to CIDs.
 
-- `serialized` (`Buffer` or `String`): a binary blob representing an IPLD CBOR encoded object.
+- `serialized` (`Uint8Array` or `String`): a binary blob representing an IPLD CBOR encoded object.
 
 Returns the deserialized object.
 
@@ -55,9 +55,9 @@ Create a [CID](https://github.com/multiformats/js-cid) for the given unserialize
 - `obj` (any): any object able to be serialized as CBOR
 - `options` (`Object`):
 
-* `hashAlg` (`String`): a [registered multicodec](https://github.com/multiformats/multicodec/blob/master/table.csv) hash algorithm.
-* `hashLen` (`String`): an optional hash length
-* `version` (`Number`): CID version number, defaults to `1`
+  - `hashAlg` (`String`): a [registered multicodec](https://github.com/multiformats/multicodec/blob/master/table.csv) hash algorithm.
+  - `hashLen` (`String`): an optional hash length
+  - `version` (`Number`): CID version number, defaults to `1`
 
 Returns a Promise with the created CID.
 
